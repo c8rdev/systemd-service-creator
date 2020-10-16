@@ -1,0 +1,26 @@
+{
+  "name": "systemd-service-creator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "homepage": "./",
+  "private": true,
+  "author": {
+    "email": "c8r@protonmail.com",
+    "name": "Can",
+    "url": "https://c8r.me"
+  },
+  "description": "linux systemd service creator",
+  "scripts": {
+    "start": "electron . --no-sandbox"
+  },
+  "build": {
+    "appId": "me.c8rdev.systemd-service-creator"
+  },
+  "dependencies": {
+    "sudo-prompt": "^9.2.1"
+  },
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
+}
